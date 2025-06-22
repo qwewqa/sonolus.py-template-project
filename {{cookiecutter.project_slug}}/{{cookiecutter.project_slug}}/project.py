@@ -1,8 +1,8 @@
 from sonolus.script.engine import Engine, EngineData
 from sonolus.script.project import Project
 
-from {{ cookiecutter.project_slug }}.common.options import Options
-from {{ cookiecutter.project_slug }}.common.ui import ui_config
+from {{ cookiecutter.project_slug }}.lib.options import Options
+from {{ cookiecutter.project_slug }}.lib.ui import ui_config
 from {{ cookiecutter.project_slug }}.level import level
 from {{ cookiecutter.project_slug }}.play.mode import play_mode
 from {{ cookiecutter.project_slug }}.preview.mode import preview_mode

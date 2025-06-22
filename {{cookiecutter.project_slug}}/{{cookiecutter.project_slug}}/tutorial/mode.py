@@ -1,8 +1,8 @@
 from sonolus.script.engine import TutorialMode
 
-from {{ cookiecutter.project_slug }}.common.effect import Effects
-from {{ cookiecutter.project_slug }}.common.particle import Particles
-from {{ cookiecutter.project_slug }}.common.skin import Skin
+from {{ cookiecutter.project_slug }}.lib.effect import Effects
+from {{ cookiecutter.project_slug }}.lib.particle import Particles
+from {{ cookiecutter.project_slug }}.lib.skin import Skin
 from {{ cookiecutter.project_slug }}.tutorial.init import preprocess
 from {{ cookiecutter.project_slug }}.tutorial.instructions import InstructionIcons, Instructions
 from {{ cookiecutter.project_slug }}.tutorial.navigate import navigate

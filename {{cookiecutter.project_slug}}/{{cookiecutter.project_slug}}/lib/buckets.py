@@ -1,7 +1,7 @@
 from sonolus.script.bucket import Bucket, bucket, bucket_sprite, buckets
 from sonolus.script.text import StandardText
 
-from {{ cookiecutter.project_slug }}.common.skin import Skin
+from {{ cookiecutter.project_slug }}.lib.skin import Skin
 
 
 @buckets
