@@ -9,3 +9,7 @@ level = Level(
         entities=[],
     ),
 )
+
+
+def load_levels():
+    yield level

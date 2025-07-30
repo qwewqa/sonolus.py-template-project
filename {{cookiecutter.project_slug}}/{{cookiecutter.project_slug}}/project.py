@@ -3,7 +3,7 @@ from sonolus.script.project import Project
 
 from {{ cookiecutter.project_slug }}.lib.options import Options
 from {{ cookiecutter.project_slug }}.lib.ui import ui_config
-from {{ cookiecutter.project_slug }}.level import level
+from {{ cookiecutter.project_slug }}.level import load_levels
 from {{ cookiecutter.project_slug }}.play.mode import play_mode
 from {{ cookiecutter.project_slug }}.preview.mode import preview_mode
 from {{ cookiecutter.project_slug }}.tutorial.mode import tutorial_mode
@@ -27,5 +27,5 @@ engine = Engine(
 
 project = Project(
     engine=engine,
-    levels=[level],
+    levels=load_levels,
 )
